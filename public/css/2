@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+body {
+    background-image: url(../img/brickwall.png);
+	background-repeat: repeat;
+} 
+
+#navigation {
+  display: inline-block ;
+
+}
+
+#navigation ul{
+	
+	line-height:3;
+	list-style:none;
+	 padding-left:0;
+	 width: auto;
+  border-radius: 6px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size:15px;
+  
+  
+
+  
+	
+  	float: left;
+	border-style: solid; 
+	border-width: 1px;
+    border-color: #BABABA #BABABA #BABABA #BABABA;
+	box-shadow: 0 1px rgba(255,255,255,1) inset;
+	-webkit-box-shadow: 0 1px rgba(255,255,255,1) inset;
+	background: #F7F7F7; /* Old browsers */
+	background: -moz-linear-gradient(top, #F7F7F7 0%, #EDEDED 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7F7F7), color-stop(50%,#EDEDED)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #F7F7F7 0%,#EDEDED 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #F7F7F7 0%,#EDEDED 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #F7F7F7 0%,#EDEDED 50%); /* IE10+ */
+	background: linear-gradient(top, #F7F7F7 0%,#EDEDED 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#EDEDED',GradientType=0 ); /* IE6-9 */	
+}
+
+#navigation ul li{
+	
+	
+}  
+#navigation ul li a{
+	padding: 15px 25px 15px 25px;
+	text-decoration: none;
+	color:#000000;
+	text-transform: uppercase;
+	  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+	
+	
+}
+#navigation > ul > li > a:hover {
+  background: rgba(125, 125, 125, 0.04);
+
+}
+
+#navigation ul li a.menuSlider{
+	
+	
+}
+
+
+
+

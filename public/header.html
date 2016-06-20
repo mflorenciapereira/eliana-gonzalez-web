@@ -1,0 +1,22 @@
+<nav role="navigation" >
+<div  id="navigation" class="navigation-slider" ng-class="{'navigation-visible': main.showNavigation}">
+
+<ul id="navigation-ul"  ng-init="main.toggleNavigationVisible()">
+   <li><a href='#/bio/'>Bio</a></li><li><a href='#/resume'>Resume</a></li><li><a href='#/portfolio'>Portfolio</a></li><li><a href='#/reel'>Reel</a></li><li><a href='#/blog'>Blog</a></li><li><a href='#/contact-me'>Contact me</a></li><li  ><a href=''  class="menuSlider" ng-click="main.toggleNavigationVisible()" >ElianaSG.COM</a></li>   
+   
+</ul>
+
+</div>
+
+<div  id="fav-icons" class="navigation-slider" ng-class="{'navigation-visible': main.showFavIcons}">
+
+<ul id="fav-icons-ul"  ng-init="main.toggleFavIconsVisible()">
+   <li><a href='https://twitter.com/egonzaleznyc'>&nbsp;<i class="fa fa-twitter fa-lg"></i></a></li>
+   <li><a href='http://facebook.com/eli.gonzalez.1428'><i class="fa fa-facebook-official fa-lg"></i></a></li>
+   <li><a href=''  class="menuSlider" ng-click="main.toggleFavIconsVisible()" >&nbsp;<i class="fa fa-star fa-lg"></i></a></li>   
+   
+</ul>
+
+</div>
+
+</nav>

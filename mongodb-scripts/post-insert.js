@@ -1,0 +1,22 @@
+use eliana-gonzalez-website;
+
+
+db.posts.drop();
+db.posts.insert({
+			title:'New show for Tom Jones!',
+			content:'Here comes the text.<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper justo lorem. Morbi dictum rutrum eros ut semper. Nulla non egestas orci. Sed venenatis turpis sapien, eget semper neque gravida a. Nulla lacinia leo elit, non lobortis nunc maximus at. Integer gravida metus in mi pulvinar pharetra. Pellentesque eu condimentum ante, congue volutpat magna. Donec et velit ultrices, pretium lacus nec, maximus purus. Vivamus vel risus fringilla, eleifend ex ac, hendrerit leo. Donec commodo iaculis nisi, quis euismod nisi finibus nec. Sed in arcu mauris.</p><img  src=\"http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg"><p>Praesent efficitur ultricies ultrices. Aliquam quis vehicula ante. Nullam elementum nec enim quis gravida. Praesent blandit, orci quis faucibus posuere, mauris risus pretium augue, non lobortis arcu velit a mi. Suspendisse rutrum condimentum egestas. Phasellus nec ligula commodo, ultricies augue sit amet, rutrum odio. Sed quis sodales metus. Cras laoreet efficitur nunc nec porta. Donec sed laoreet neque, sed placerat turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer vehicula luctus lorem a sodales. Morbi ac mauris nisl.</p><p>Duis sollicitudin pharetra consectetur. Sed lacus sapien, semper et justo et, bibendum posuere est. Fusce enim elit, faucibus eu arcu in, feugiat dictum nulla. Aenean laoreet, lectus ac ullamcorper finibus, leo sem semper sem, non mattis urna ipsum auctor ligula. Nulla aliquet non nulla at efficitur. Suspendisse condimentum mattis odio nec luctus. In mollis lobortis diam, ut mattis lorem mollis sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ut sem ut felis placerat auctor. Morbi feugiat elit non mollis interdum. Proin et dolor nunc. Nullam sed risus at diam commodo tempor. </p>',
+			date: new Date('01/12/2016'),
+			place:'New York City, USA',
+			tags:['Shows', 'News']
+			
+			});
+db.posts.insert({
+			title:'Dancing performance',
+			content:'Here comes the text.<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper justo lorem. Morbi dictum rutrum eros ut semper. Nulla non egestas orci. Sed venenatis turpis sapien, eget semper neque gravida a. Nulla lacinia leo elit, non lobortis nunc maximus at. Integer gravida metus in mi pulvinar pharetra. Pellentesque eu condimentum ante, congue volutpat magna. Donec et velit ultrices, pretium lacus nec, maximus purus. Vivamus vel risus fringilla, eleifend ex ac, hendrerit leo. Donec commodo iaculis nisi, quis euismod nisi finibus nec. Sed in arcu mauris.</p><img  src=\"http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg"><p>Praesent efficitur ultricies ultrices. Aliquam quis vehicula ante. Nullam elementum nec enim quis gravida. Praesent blandit, orci quis faucibus posuere, mauris risus pretium augue, non lobortis arcu velit a mi. Suspendisse rutrum condimentum egestas. Phasellus nec ligula commodo, ultricies augue sit amet, rutrum odio. Sed quis sodales metus. Cras laoreet efficitur nunc nec porta. Donec sed laoreet neque, sed placerat turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer vehicula luctus lorem a sodales. Morbi ac mauris nisl.</p><p>Duis sollicitudin pharetra consectetur. Sed lacus sapien, semper et justo et, bibendum posuere est. Fusce enim elit, faucibus eu arcu in, feugiat dictum nulla. Aenean laoreet, lectus ac ullamcorper finibus, leo sem semper sem, non mattis urna ipsum auctor ligula. Nulla aliquet non nulla at efficitur. Suspendisse condimentum mattis odio nec luctus. In mollis lobortis diam, ut mattis lorem mollis sit amet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ut sem ut felis placerat auctor. Morbi feugiat elit non mollis interdum. Proin et dolor nunc. Nullam sed risus at diam commodo tempor. </p>',
+			date:new Date('04/12/2015'),
+			place:'New York City, USA',
+			tags:['Shows', 'Song']
+			
+			});
+
+			

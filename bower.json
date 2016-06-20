@@ -1,0 +1,7 @@
+{
+"name": "eliana-gonzalez-website",
+"version": "0.0.1",
+"dependencies": {
+	"angular": "~1.4"
+}
+}

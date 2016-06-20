@@ -1,0 +1,1 @@
+angular.module('ElianaGonzalesWebsite.Resume', ['ElianaGonzalesWebsite.Common']);

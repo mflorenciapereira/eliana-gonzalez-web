@@ -1,0 +1,32 @@
+{
+  "name": "eliana-gonzalez-website",
+  "version": "0.0.1",
+  "description": "Artist Eliana Gonzalez website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Eliana",
+    "Gonzalez",
+    "artist",
+    "singing",
+    "dancing",
+    "acting",
+    "theatre",
+    "dance"
+  ],
+  "author": "Maria Florencia Pereira",
+  "license": "MIT",
+  "dependencies": {
+	"express": "latest",
+	"morgan": "latest",
+	"body-parser": "latest",
+	"method-override": "latest",
+	"ejs": "latest",
+	"mongoose": "latest",
+	"nodemailer": "latest",
+	"nodemailer-mailgun-transport": "latest",
+	"request": "latest"
+	}
+}

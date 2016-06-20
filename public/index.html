@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="ElianaGonzalesWebsite">
+<meta charset="UTF-8">
+<head>
+    <title>Eliana Gonzalez</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="assets/css/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-sanitize.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-messages.min.js"></script>
+<script src="http://static.videogular.com/scripts/videogular/latest/videogular.js"></script>
+<script src="http://static.videogular.com/scripts/controls/latest/vg-controls.js"></script>
+<script src="http://static.videogular.com/scripts/overlay-play/latest/vg-overlay-play.js"></script>
+<script src="http://static.videogular.com/scripts/poster/latest/vg-poster.js"></script>
+<script src="http://static.videogular.com/scripts/buffering/latest/vg-buffering.js"></script>
+<script src="http:////cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>  
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src='./js/grecaptcha.js'></script>
+
+
+
+
+
+	
+	
+	
+	
+	<link rel="stylesheet" href="css/style.css">
+	<script src="./app.js"></script>
+	<script src="./app/app.js"></script>
+	<script src="./sections/bio/Bio.js"></script>
+	<script src="./sections/resume/Resume.js"></script>
+	<script src="./sections/portfolio/Portfolio.js"></script>
+	<script src="./sections/reel/Reel.js"></script>
+	<script src="./sections/blog/Blog.js"></script>
+	<script src="./sections/contactMe/ContactMe.js"></script>
+	
+	<script src="./sections/portfolio/services/PortfolioService.js"></script>
+	<script src="./sections/blog/services/BlogServiceResource.js"></script>
+	<script src="./sections/blog/services/BlogService.js"></script>
+	<script src="./sections/contactMe/services/ContactMeService.js"></script>
+	<script src="./sections/reel/services/ReelService.js"></script>
+	
+	<script src="./app/animations/NavigationSlider.js"></script>
+	<script src="./sections/portfolio/animations/SliderNavigation.js"></script>
+	<script src="./app/directives/StickyNavigation.js"></script>
+	<script src="./app/directives/Datepicker.js"></script>
+	
+	<script src="./sections/bio/controllers/BioController.js"></script>
+	<script src="./sections/resume/controllers/ResumeController.js"></script>
+	<script src="./sections/portfolio/controllers/PortfolioController.js"></script>
+	<script src="./sections/reel/controllers/ReelController.js"></script>
+	<script src="./sections/blog/controllers/BlogController.js"></script>
+	<script src="./sections/contactMe/controllers/ContactMeController.js"></script>
+	
+	
+	
+	
+	
+	
+	
+</head>
+<body ng-controller="MainCtrl as main" >
+	<div id="content">
+		<div ng-include='"header.html"' ></div>
+		<div ng-view> </div>
+		<div ng-include='"footer.html"'></div>	
+	</div>
+	
+	
+</body>
+</html>

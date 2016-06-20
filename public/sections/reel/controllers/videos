@@ -1,0 +1,48 @@
+reel.videos = [
+            {
+				id:0,
+                sources: [
+                    {src:  $sce.trustAsResourceUrl("assets/videos/dontTellMama.mp4"), type: "video/mp4"},                    
+                ],
+				title:"Don't tell momma!",
+				description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+				airdate:"25-12-2013",
+				producer:"OWT True TV",
+				thumb:"assets/video-thumbs/dontTellMomma.png"
+            },
+            {
+				id:1,
+                sources: [
+                    {src: $sce.trustAsResourceUrl("assets/videos/musicHall.mp4"), type: "video/mp4"},                    
+                ],
+				title:"Maybe this time",
+				description:"Music hall.",
+				airdate:"26-12-2012",
+				producer:"Telefe",
+				thumb:"assets/video-thumbs/maybeThisTime.png"
+            },            
+			{
+				id:2,
+                sources: [
+                    {src: $sce.trustAsResourceUrl("assets/videos/singing.mp4"), type: "video/mp4"},                    
+                ],
+				title:"Singing",
+				description:"Eliana Gonzalez sings What a wonderful world.",
+				airdate:"12-09-2011",
+				producer:"NBC",
+				thumb:"assets/video-thumbs/singing.png"
+            },
+			          
+					  {
+						  id:3,
+                sources: [
+                    {src: $sce.trustAsResourceUrl("assets/videos/musicHall.mp4"), type: "video/mp4"},                    
+                ],
+				title:"Maybe this time",
+				description:"Music hall.",
+				airdate:"26-12-2012",
+				producer:"Telefe",
+				thumb:"assets/video-thumbs/maybeThisTime.png"
+            },  
+			
+        ];

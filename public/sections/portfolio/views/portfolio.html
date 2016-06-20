@@ -1,0 +1,44 @@
+
+<div id="portfolio" ng-controller="PortfolioCtrl as portfolio">
+<h1>Portfolio</h1>
+<div id="photo">
+	<div id="gallery">
+		<img ng-click="portfolio.selectPhoto($index)" ng-repeat="photo in (portfolio.filteredPhotos = (portfolio.photos|filter:{category:{name:portfolio.currentCategory}}|orderBy:'id'|limitTo:15:currentGalleryPage))"  src="{{photo.url}}">
+	</div>	
+	<br><br>
+	
+	
+	<div id="wrapper">
+	<i id="icon-left" ng-click="portfolio.selectPreviousPhoto()" class="fa fa-chevron-left fa-4x"></i>
+<img id="currentPhoto" class="polaroid fade"  ng-src="{{portfolio.currentPhoto.url}}" ng-repeat="photo in portfolio.filteredPhotos" ng-hide="!portfolio.isPhotoSelected($index)">
+<i id="icon-right"  ng-click="portfolio.selectNextPhoto()" class="fa fa-chevron-right fa-4x"></i>
+
+
+</div>
+
+
+
+
+
+</div>
+<div id="albums">
+	<div class="album" ng-repeat="categoryName in portfolio.categories">
+		<h2>{{categoryName}}</h2>
+		<img ng-click="portfolio.selectCategory(categoryName)" ng-repeat="photo in portfolio.photos|filter:{category:{name:categoryName}}" class="polaroid" src="{{photo.url}}">
+	</div>
+	<!-- <div class="album">
+		<h2>Performance</h2>
+		<img ng-click="portfolio.selectCategory('performance')" ng-repeat="photo in portfolio.photos|filter:{category:{name:'performance'}}"" class="polaroid" src="{{photo.url}}">			
+	</div>	
+	<div class="album">
+		<h2>Posing</h2>
+		<img ng-click="portfolio.selectCategory('posing')" ng-repeat="photo in portfolio.photos|filter:{category:{name:'posing'}}"" class="polaroid" src="{{photo.url}}">				
+	</div>	 -->
+</div>
+<br>
+
+
+</div>
+
+	
+	

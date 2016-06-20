@@ -1,0 +1,48 @@
+<div id="reel" >
+<h1>Reel</h1>
+<div class="videogular-container video-polaroid">
+    <videogular vg-player-ready="reel.onPlayerReady($API)" vg-complete="reel.onCompleteVideo()" vg-theme="reel.config.theme.url" >
+        <vg-media vg-src="reel.config.sources"
+                  vg-tracks="reel.config.tracks"
+                  vg-native-controls="true">
+        </vg-media>
+    </videogular>
+	<description>
+	<h2>{{reel.currentVideoSelected.title}}</h2>{{reel.currentVideoSelected.description}}
+	<br>
+	<br>
+	Airdate: {{reel.currentVideoSelected.airdate}}<br>
+	Producer: {{ reel.currentVideoSelected.producer}}
+	</description>
+</div>
+<div class="playlist">
+	
+	<i ng-click="reel.previousThumb()" ng-show="reel.showPrevious" class="fa fa-chevron-up fa-3x"></i> 
+	<br>
+	<br>
+        <ul>
+            <li  ng-repeat="video in reel.videos|limitTo:reel.thumbLimit:reel.thumbOffset">
+			
+				<a ng-click="reel.setVideo(video.id)">
+					<p>{{video.title}}</p> 
+					<img ng-class="{'selected': video.id==reel.currentVideoSelected.id}" src="{{video.thumb}}">
+				</a>
+			</li
+			>
+           
+        </ul>
+		<br>
+		<i  ng-click="reel.nextThumb()" ng-show="reel.showNext" class="fa fa-chevron-down fa-3x"></i>
+<br><br><br>
+    </div>
+
+
+ </div>
+    
+	
+
+
+
+  
+
+</div>
